@@ -1,0 +1,41 @@
+.heightTest{
+    height: 100vh
+}
+.verticalHeightTest{
+    height: 10%;
+
+}
+.secondVerticalHeightTest{
+    max-height: 100%;
+}
+.adjustment{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    max-height: inherit;
+    height: 100%;
+}
+.inheritedHeight{
+    max-height: inherit;
+    height: 100%;
+}
+.testingsomething{
+    max-height: inherit;
+    height: 25%;
+}
+.testingsomething2{
+    max-height: inherit;
+    height: 50%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.inheritedHeight2{
+    max-height: inherit;
+    height: 20%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.inheritedHeight3{
+    max-height: inherit;
+    padding-top: auto;
+    padding-bottom: 0;
+}
