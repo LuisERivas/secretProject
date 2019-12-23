@@ -8,11 +8,13 @@ import {
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home'
+import SiteNavbar from './components/SiteNavbar';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <SiteNavbar />
         <Switch>
           {
             <Route path='/' exact component={Home} />
