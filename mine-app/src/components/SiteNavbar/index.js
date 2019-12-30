@@ -6,16 +6,16 @@ import './index.css'
 class SiteNavbar extends Component {
   render () {
     return (
-      <Navbar className='bg-danger float-left heightTest'>
-        <container className='col bg-primary d-block inheritedHeight' >
+      <Navbar className='bg-light float-left heightTest'>
+        <div className='col bg-primary inheritedHeight' >
           {/*  Company Logo Section */}
-          <container className='row bg-primary d-block testingsomething'>
+          <div className='row bg-primary testingsomething'>
             <Navbar.Brand className='col'>
                     Company Name/Logo
             </Navbar.Brand>
-          </container>
+          </div>
           {/*  Links Section */}
-          <container className='row bg-light d-block testingsomething2'>
+          <div className='row bg-light testingsomething2'>
             <container className='col m-0 p-0'>
               <container className='row m-auto inheritedHeight2'>
                 <Nav.Link className='bg-dark d-block m-auto '>
@@ -43,7 +43,7 @@ class SiteNavbar extends Component {
                 </Nav.Link>
               </container>
             </container>
-          </container>
+          </div>
           {/*  Social Media section */}
           <container className='row d-block testingsomething'>
             <container className='col bg-danger inheritedHeight p-0'>
@@ -54,7 +54,7 @@ class SiteNavbar extends Component {
               </container>
             </container>
           </container>
-        </container>
+        </div>
       </Navbar>
     )
   }
