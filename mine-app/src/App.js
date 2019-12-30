@@ -2,26 +2,26 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom'
-import logo from './logo.svg'
 import './App.css'
 import Home from './components/Home'
 import SiteNavbar from './components/SiteNavbar'
 import Dashboard from './components/Dashboard'
+import Workspace from './components/Workspace'
 
 function App () {
   return (
     <div className='App'>
       <Router>
-        <SiteNavbar />
-        <Switch>
+        <SiteNavbar className='' />
+        <Workspace className=''>
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route exact path='/Dashboard' component={Dashboard} />
+          </Switch>
+        </Workspace>
 
-          <Route path='/' exact component={Home} />
-          <Route exact path='/Dashboard' component={Dashboard} />
-
-        </Switch>
       </Router>
     </div>
   )
