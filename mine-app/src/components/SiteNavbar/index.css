@@ -39,3 +39,11 @@
     padding-top: auto;
     padding-bottom: 0;
 }
+.inheritedheight4{
+    max-height: inherit;
+    padding-top: auto;
+    padding-bottom: 0%;
+    margin-top: auto;
+    margin-bottom: 10%;
+
+}

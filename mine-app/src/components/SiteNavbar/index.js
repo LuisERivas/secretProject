@@ -10,7 +10,7 @@ class SiteNavbar extends Component {
         <container className='col bg-primary d-block inheritedHeight' >
           {/*  Company Logo Section */}
           <container className='row bg-primary d-block testingsomething'>
-            <Navbar.Brand className=''>
+            <Navbar.Brand className='col'>
                     Company Name/Logo
             </Navbar.Brand>
           </container>
@@ -19,7 +19,7 @@ class SiteNavbar extends Component {
             <container className='col m-0 p-0'>
               <container className='row m-auto inheritedHeight2'>
                 <Nav.Link className='bg-dark d-block m-auto '>
-                  <Link className='' to=''> Dashboard </Link>
+                  <Link className='' to='/Dashboard'> Dashboard </Link>
                 </Nav.Link>
               </container>
               <container className='row m-auto inheritedHeight2'>
@@ -45,10 +45,10 @@ class SiteNavbar extends Component {
             </container>
           </container>
           {/*  Social Media section */}
-          <container className='row bg-primary'>
-            <container className='col align-items-end'>
-              <container className='row '>
-                <Nav.Link className='bg-dark m-auto '>
+          <container className='row d-block testingsomething'>
+            <container className='col bg-danger inheritedHeight p-0'>
+              <container className='row h-100'>
+                <Nav.Link className=' bg-dark mb-0 mt-auto ml-auto mr-auto'>
                   <Link className='' to=''> Social Media</Link>
                 </Nav.Link>
               </container>
