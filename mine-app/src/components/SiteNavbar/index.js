@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './index.css'
+import CopyRightHolder from '../CopyRightHolder'
 
 class SiteNavbar extends Component {
   render () {
@@ -51,6 +52,9 @@ class SiteNavbar extends Component {
                 <Nav.Link className=' bg-dark mb-0 mt-auto ml-auto mr-auto'>
                   <Link className='' to=''> Social Media</Link>
                 </Nav.Link>
+              </container>
+              <container className=''>
+                {/* NEED TO ADD: Copy right section */}
               </container>
             </container>
           </container>
