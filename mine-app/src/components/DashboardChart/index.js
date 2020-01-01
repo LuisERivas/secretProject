@@ -4,7 +4,7 @@ import './index.css'
 class DashboardChart extends Component {
   render () {
     return (
-      <container className='container bg-dark'>
+      <container className='bg-dark col h-100'>
         <h2>borf </h2>
       </container>
     )
