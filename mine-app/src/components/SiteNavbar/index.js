@@ -40,7 +40,7 @@ class SiteNavbar extends Component {
               </container>
               <container className='row m-auto inheritedHeight2'>
                 <Nav.Link className='bg-dark m-auto'>
-                  <Link className='' to=''> Current Campaigns</Link>
+                  <Link className='' to='/CurrentCampaignsPage'> Current Campaigns</Link>
                 </Nav.Link>
               </container>
             </container>

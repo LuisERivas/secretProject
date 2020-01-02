@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import SignOnLogo from '../SignOnLogo'
 import EnterLogininfo from '../EnterLogInInfo'
 import OurSocialMedia from '../OurSocialMedia'
-import CopyRightHolder from '../CopyRightHolder'
 import './index.css'
 
 class Home extends Component {
@@ -12,35 +11,35 @@ class Home extends Component {
         <div className='bg-danger row heightAdjustment'>
           <h1 className='bg-dark col text-light pb-0 mb-0'> This is the Log-in page</h1>
         </div>
-        <div className='bg-primary row heightAdjustment1'>
+        <div className='bg-primary row heightAdjustment01'>
           <div className='col' />
           <div className='col' />
           <hr />
           <div className='col' />
           <div className='col' />
         </div>
-        <div className='bg-danger row heightAdjustment2 '>
+        <div className='bg-danger row heightAdjustment02 '>
           <div className='col' />
           <div className='col' />
           <SignOnLogo />
           <div className='col' />
           <div className='col' />
         </div>
-        <div className='bg-primary row heightAdjustment3'>
+        <div className='bg-primary row heightAdjustment03'>
           <div className='col' />
           <div className='col' />
           <EnterLogininfo />
           <div className='col' />
           <div className='col' />
         </div>
-        <div className='bg-primary row heightAdjustment4'>
+        <div className='bg-primary row heightAdjustment04'>
           <div className='col' />
           <div className='col' />
           <OurSocialMedia />
           <div className='col' />
           <div className='col' />
         </div>
-        <div className='bg-primary row heightAdjustment5'>
+        <div className='bg-primary row heightAdjustment05'>
           <div className='col' />
           <div className='col' />
           <hr />
