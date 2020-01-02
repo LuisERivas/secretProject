@@ -9,6 +9,7 @@ import Home from './components/Home'
 import SiteNavbar from './components/SiteNavbar'
 import Dashboard from './components/Dashboard'
 import Workspace from './components/Workspace'
+import CurrentCampaignsPage from './components/CurrentCampaignsPage'
 
 function App () {
   return (
@@ -19,6 +20,7 @@ function App () {
           <Switch>
             <Route path='/' exact component={Home} />
             <Route exact path='/Dashboard' component={Dashboard} />
+            <Route exact path='/CurrentCampaignsPage' component={CurrentCampaignsPage} />
           </Switch>
         </Workspace>
 
